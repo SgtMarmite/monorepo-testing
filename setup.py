@@ -12,7 +12,7 @@ project_urls = {
 }
 
 setuptools.setup(
-    name="DBComponent_DEV",
+    name="kebola.DBComponent",
     version="0.0.2",
     author="Keboola KDS Team",
     project_urls=project_urls,
@@ -24,12 +24,12 @@ setuptools.setup(
         'deprecated'
     ],
     author_email="support@keboola.com",
-    description="General TEST library for Python applications running in Keboola Connection environment",
+    description="General TEST library for Python DB applications running in Keboola Connection environment",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/keboola/python-component",
     package_dir={'': 'src'},
-    packages=['DBComponent_DEV'],
+    packages=['kebola.DBComponent'],
     include_package_data=True,
     zip_safe=False,
     test_suite='tests',

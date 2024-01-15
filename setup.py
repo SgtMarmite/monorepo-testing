@@ -12,8 +12,8 @@ project_urls = {
 }
 
 setuptools.setup(
-    name="SgtMarmite.component",
-    version="1.4.4",
+    name="DBComponent_SgtMarmite",
+    version="0.0.1",
     author="Keboola KDS Team",
     project_urls=project_urls,
     setup_requires=['pytest-runner', 'flake8'],
@@ -29,7 +29,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/keboola/python-component",
     package_dir={'': 'src'},
-    packages=['SgtMarmite.component'],
+    packages=['DBComponent'],
     include_package_data=True,
     zip_safe=False,
     test_suite='tests',

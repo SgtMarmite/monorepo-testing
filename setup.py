@@ -12,7 +12,7 @@ project_urls = {
 }
 
 setuptools.setup(
-    name="DBComponent_SgtMarmite",
+    name="DBComponent_DEV",
     version="0.0.1",
     author="Keboola KDS Team",
     project_urls=project_urls,
@@ -29,7 +29,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/keboola/python-component",
     package_dir={'': 'src'},
-    packages=['DBComponent'],
+    packages=['DBComponent_DEV'],
     include_package_data=True,
     zip_safe=False,
     test_suite='tests',
